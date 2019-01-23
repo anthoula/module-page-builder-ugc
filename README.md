@@ -26,3 +26,7 @@ Navigate to the magento2ce root directory and install/setup the Page Builder UGC
 cd magento2ce
 bin/magento setup:upgrade
 ```
+
+#### Provide Client ID in Store Configuration
+Go to Stores > Configuration > Content Management > Advanced Content Tools and provide an Instagram Client ID.
+
