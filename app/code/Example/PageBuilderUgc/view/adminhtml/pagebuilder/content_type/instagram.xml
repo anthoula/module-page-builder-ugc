@@ -9,7 +9,7 @@
     <type name="instagram"
           label="Instagram"
           component="Magento_PageBuilder/js/content-type"
-          preview_component="Magento_PageBuilder/js/content-type/instagram/preview"
+          preview_component="Example_PageBuilderUgc/js/content-type/instagram/preview"
           form="pagebuilder_instagram_form"
           group="media"
           icon="icon-pagebuilder-banner"
