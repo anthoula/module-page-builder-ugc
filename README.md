@@ -5,7 +5,7 @@ This example module demonstrates how to add a custom content type within the Pag
 
 #### Prerequisite
 * Install Magento 2
-* Install Page Builder
+* See [Install Page Builder](https://devdocs.magedevteam.com/bd_pb-beta/page-builder/getting-started/install-pagebuilder.html)
 
 #### Clone this repo into your Magento root directory
 ```
@@ -26,7 +26,9 @@ Navigate to the magento2ce root directory and install/setup the Page Builder UGC
 cd magento2ce
 bin/magento setup:upgrade
 ```
+## Prerequisites
 
-#### Provide Client ID in Store Configuration
-Go to Stores > Configuration > Content Management > Advanced Content Tools and provide an Instagram Client ID.
+#### Instagram Client ID
 
+Provide a Client ID in Store Configuration:
+1. Go to Stores > Configuration > Content Management > Advanced Content Tools and provide an Instagram Client ID.
