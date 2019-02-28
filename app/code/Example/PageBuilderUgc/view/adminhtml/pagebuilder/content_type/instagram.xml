@@ -8,10 +8,10 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
     <type name="instagram"
           label="Instagram"
+          menu_section="media"
           component="Magento_PageBuilder/js/content-type"
           preview_component="Example_PageBuilderUgc/js/content-type/instagram/preview"
           form="pagebuilder_instagram_form"
-          group="media"
           icon="icon-pagebuilder-banner"
           sortOrder="60"
           translate="label">
@@ -20,7 +20,7 @@
             <appearance name="default"
                         default="true"
                         preview_template="Example_PageBuilderUgc/content-type/instagram/default/preview"
-                        render_template="Example_PageBuilderUgc/content-type/instagram/default/master"
+                        master_template="Example_PageBuilderUgc/content-type/instagram/default/master"
                         reader="Magento_PageBuilder/js/master-format/read/configurable">
                 <elements>
                     <element name="main">
